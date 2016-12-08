@@ -3,12 +3,12 @@
     $commentClass = '';
     if ($comments->authorId) {
         if ($comments->authorId == $comments->ownerId) {
-            $commentClass .= ' comment-author';  //如果是文章作者的评论添加 .comment-by-author 样式
+            $commentClass .= ' comment-author';
         } else {
-            $commentClass .= ' comment';  //如果是评论作者的添加 .comment-by-user 样式
+            $commentClass .= ' comment';
         }
     } 
-    $commentLevelClass = $comments->_levels > 0 ? ' comment-child' : ' comment-parent';  //评论层数大于0为子级，否则是父级
+    $commentLevelClass = $comments->_levels > 0 ? ' comment-child' : ' comment-parent';
 ?>
     <li class="comment <?php if ($comments->_levels > 0) { echo ' comment-child'; $comments->levelsAlt(' comment-level-odd', ' comment-level-even'); } else { echo ' comment-parent'; } $comments->alt(' comment-odd', ' comment-even'); echo $commentClass; ?>" id="comment-<?php $comments->theId(); ?>">
         <?php $comments->gravatar('40', ''); ?>
