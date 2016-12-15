@@ -14,6 +14,7 @@ As there is no theme which meet my needs, and then I create it.
 
 ## Support
 
+- wordpress
 - typecho
 - html source
 
@@ -34,6 +35,16 @@ As there is no theme which meet my needs, and then I create it.
   - move  folder `cat` to the template folder of your blog.
   - turn it on at your blog management dashbroad.
   - set parameters
+
+
+
+- wordpress
+
+  - download folder `/wordpress/cat` to your computer
+  - move  folder `cat` to the template folder of wordpress.
+  - turn it on at your blog management dashbroad.
+  - set parameters
+
 
 
 
