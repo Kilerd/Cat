@@ -66,19 +66,15 @@ function cat_settings(){ ?>
 function cat_comments($comment, $args, $depth){
    $GLOBALS['comment'] = $comment; ?>
    <li class="comment" id="comment-<?php comment_ID(); ?>">
-        <!--Commentator Avatar Begin-->
         <?php if (function_exists('get_avatar') && get_option('show_avatars')) { echo get_avatar($comment, 40); } ?>
-        <!--Commentator Avatar End-->
         <div class="content">
             <div class="meta">
 
-                <?php echo get_comment_author_link(); ?> <!--Commentator URL and Name-->
+                <?php echo get_comment_author_link(); ?>
                 <span><?php echo get_comment_time('Y-m-d'); ?><?php if ($comment->comment_approved == '0') : ?> , Comment is aduitting.<?php endif; ?></span> <!--Comment Time-->
             </div>
             <div class="p yue">
-                <!--Comment Content Begin-->
 				<?php comment_text(); ?>
-                <!--Comment Content End-->
             </div>
         </div>
     </li>
