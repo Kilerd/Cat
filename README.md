@@ -27,16 +27,12 @@ As there is no theme which meet my needs, and then I create it.
 
   - change html content, all what you need to change are at between `<!--` and `-->` or between `<!-- xxx begin-->` and `<!-- xxx end-->`
 
-    ​
-
 - typecho
 
   - download folder `/typecho/cat` to your computer
   - move  folder `cat` to the template folder of your blog.
   - turn it on at your blog management dashbroad.
   - set parameters
-
-
 
 - wordpress
 
