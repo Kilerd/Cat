@@ -14,7 +14,7 @@
         <?php $comments->gravatar('40', ''); ?>
         <div class="content">
             <div class="meta"><?php $comments->author(); ?><span><?php $comments->date('Y-m-d'); ?></span></div>
-            <div class="p"><?php $comments->content(); ?></div>
+            <div class="p yue"><?php $comments->content(); ?></div>
         </div>
         <?php if ($comments->children) { ?>
         <div class="childs">
