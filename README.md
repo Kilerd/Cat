@@ -17,6 +17,7 @@ As there is no theme which meet my needs, and then I create it.
 - wordpress
 - typecho
 - html source
+- [hugo](https://github.com/hoofs/Cat) supported from [hoofs](https://github.com/hoofs)
 
 
 ## Usage
@@ -41,6 +42,9 @@ As there is no theme which meet my needs, and then I create it.
   - turn it on at your blog management dashbroad.
   - set parameters
 
+- hugo
+  - please see [hoofs/Cat](https://github.com/hoofs/Cat) for detail.
+
 
 
 
@@ -58,7 +62,7 @@ As there is no theme which meet my needs, and then I create it.
 
 ## Contributors
 
-None help me T.T
+- [hoofs](https://github.com/hoofs)
 
 
 
